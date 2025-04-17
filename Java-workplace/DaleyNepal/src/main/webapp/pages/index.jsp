@@ -341,7 +341,6 @@
     <script> // Initialize Feather icons
       feather.replace();
     </script>
-<h1> Thank you for choosing us </h1>
   </body>
 
   </html>
