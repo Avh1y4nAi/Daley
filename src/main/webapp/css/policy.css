@@ -1,0 +1,74 @@
+@charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Bungee+Tint&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+ :root {
+     --primary: #171717;
+     --accent: #f97316;
+     --light: #ffffff;
+     --muted: #6b7280;
+     --main-font: "Monsterat", sans-serif;
+     --secondary-font: "Poppins", sans-serif;
+     --tertiary-font: "Inter", sans-serif;
+
+ }
+
+ body {
+     background-color: var(--light);
+     color: var(--light);
+     line-height: 1.6;
+ }
+
+ .terms-container {
+     max-width: 1200px;
+     margin: 96px auto;
+ }
+
+ .terms-header {
+     text-align: center;
+     margin-bottom: 5rem;
+
+ }
+
+ .terms-header h1 {
+     font-size: 3.50rem;
+     color: var(--primary);
+     font-family: var(--main-font);
+     font-weight: 500;
+     margin-top: 6rem;
+     margin-bottom: 5px;
+
+ }
+
+ .terms-header p {
+     font-size: 1rem;
+     color: var(--muted);
+     font-family: var(--secondary-font);
+ }
+
+ .terms-section {
+     margin-bottom: 3rem;
+ }
+
+ .terms-section h2 {
+     font-size: 21px;
+     color: var(--primary);
+     margin-bottom: 0.5rem;
+     font-family: var(--secondary-font);
+     font-weight: 400;
+ }
+
+ .terms-section p {
+     font-size: 1rem;
+     color: var(--muted);
+     font-family: var(--secondary-font);
+ }
+
+ @media (max-width: 600px) {
+     body {
+         padding: 1rem;
+     }
+
+     .header h1 {
+         font-size: 2rem;
+     }
+ }
